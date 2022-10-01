@@ -44,8 +44,15 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-img.logo { 
-position: static;
+img.logo{
+	position: relative;
+	top: 20px;
+	size: 40px;
+}
+img.img{
+	position: relative;
+	top: 320px;
+	left: 960px;
 }
 출처: https://pjh3749.tistory.com/144 [JayTech의 기술 블로그:티스토리]
 table {
